@@ -2029,3 +2029,26 @@ https://secretjs.scrt.network/modules#stringToCoins
 Checks if a given address is a valid address.
 
 https://secretjs.scrt.network/modules#validateAddress
+
+# Play
+
+Clone and install dependencies, build, and run script:
+```
+git clone git@github.com:ltfschoen/secret.js.git
+cd secret.js
+nvm install lts/*
+corepack enable
+yarn set version stable
+yarn
+yarn run build
+node ./dist/play.js
+```
+
+Outputs in newfile.txt of the project root directory:
+```
+{
+  "address": "secret1ap26qrlp8mcq2pg6r47w43l0y8zkqm8a450s03",
+  "publicKeyHex": "0x034ee8249f67e136139c3ed94ad63288f6c1de45ce66fa883247211a698f440cdf",
+  "privateKeyHex": "0xf0a7b67eb9a719d54f8a9bfbfb187d8c296b97911a05bf5ca30494823e46beb6"
+}
+```
