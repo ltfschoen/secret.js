@@ -48,9 +48,9 @@
   },
   "devDependencies": {
     "@confio/relayer": "0.7.0",
+    "@cosmjs/crypto": "0.29.4",
     "@cosmjs/proto-signing": "^0.29.5",
     "@cosmjs/stargate": "0.29.4",
-    "@cosmjs/crypto": "0.29.4",
     "@types/jest": "27.4.0",
     "@types/node": "18.11.2",
     "@types/pako": "1.0.3",
@@ -83,5 +83,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@4.5.3"
 }
